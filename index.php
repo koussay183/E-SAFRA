@@ -10,17 +10,33 @@ session_start();
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-    <header>
-        <h1>E-Safra</h1>
+    <section class="Hero">
         <nav>
-            <a href="login.php">Login</a>
-            <a href="signup.php">Sign Up</a>
+            <div>
+                <span class="logo">
+                    <img src="./assets/icon.png"/>
+                    <span>
+                        <span>E-</span>
+                        <span>SAFRA</span>
+                    </span>
+                </span>
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </nav>
-    </header>
-    
-    <section class="intro">
-        <h2>Transform Your Future with E-Safra</h2>
-        <p>E-Safra is an exclusive online learning platform for ESSTHS students. Our mission is to provide you with high-quality courses in high-demand fields such as programming, design, animation, photography, and more.</p>
+        
+        <section class="intro">
+            <h2>Transform Your Future with E-Safra</h2>
+            <p>E-Safra is an exclusive online learning platform for ESSTHS students. Our mission is to provide you with high-quality courses </p>
+            <div>
+                <a href="#about-us">Read More</a>
+                <a href="signup.php">Join Now</a>
+            </div>
+        </section>
     </section>
 
     <section class="features">
@@ -51,11 +67,11 @@ session_start();
 
     <footer>
         <p>© 2025 E-Safra. All rights reserved.</p>
-        <nav>
+        <div>
             <a href="#">About Us</a> | 
             <a href="#">Contact</a> | 
             <a href="#">Privacy Policy</a>
-        </nav>
+        </div>
     </footer>
 </body>
 </html>
