@@ -28,7 +28,7 @@ nav {
         .logo {
             display: flex;
             align-items: center;
-            background-color: rgba(0, 0, 0, 0.766);
+            transform: scale(1.2);
             padding: 0 1.6em;
             padding-right: 1.9em;
             border-radius: 50px;
@@ -53,14 +53,33 @@ nav {
             display: flex;
             column-gap: 2em;
             font-size: 1.1em;
+            align-items: center;
             a {
                 text-decoration: none;
                 color: white;
+            }
+            .loginBtnInsideNav{
+                background-color: white;
+                color: black;
+                padding: .5em 3em;
+                border-radius: 50px;
             }
         }
     }
 }
 
-
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 1em;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
 
 @import "index";

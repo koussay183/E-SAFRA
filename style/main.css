@@ -28,7 +28,7 @@ nav > div {
 nav > div .logo {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.766);
+  transform: scale(1.2);
   padding: 0 1.6em;
   padding-right: 1.9em;
   border-radius: 50px;
@@ -52,8 +52,29 @@ nav > div div {
   -moz-column-gap: 2em;
        column-gap: 2em;
   font-size: 1.1em;
+  align-items: center;
 }
 nav > div div a {
+  text-decoration: none;
+  color: white;
+}
+nav > div div .loginBtnInsideNav {
+  background-color: white;
+  color: black;
+  padding: 0.5em 3em;
+  border-radius: 50px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0 1em;
+  color: white;
+}
+footer a {
   text-decoration: none;
   color: white;
 }
@@ -85,19 +106,121 @@ nav > div div a {
   color: white;
   text-transform: capitalize;
   font-size: 1.1em;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8em;
 }
 .Hero .intro div {
   margin-top: 1em;
 }
 .Hero .intro div a {
-  background-color: white;
+  background-color: transparent;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 0.7em 2em;
   border-radius: 60px;
+  border: 3px solid white;
   font-size: 1.1em;
   margin: 0 0.5em;
 }
 .Hero .intro div a:nth-child(2) {
   background-color: #e3b500;
+  border: 3px solid #e3b500;
+  color: black;
+}
+
+.features {
+  width: 100%;
+  padding: 1em 2em;
+}
+.features > h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.features .featuresHolder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.features .featuresHolder .feature {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features .featuresHolder .feature i {
+  font-size: 3em;
+  color: #e3b500;
+}
+.features .featuresHolder .feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+.features .featuresHolder .feature p {
+  text-align: center;
+}
+.features .aboutus {
+  display: flex;
+  padding: 1em;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-top: 2em;
+}
+.features .aboutus img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+}
+.features .aboutus div p {
+  line-height: 2em;
+  text-transform: capitalize;
+}
+.features .aboutus div a {
+  background-color: #e3b500;
+  color: black;
+  text-decoration: none;
+  width: 200px;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.how-it-works {
+  width: 100%;
+  padding: 2em;
+}
+.how-it-works h2 {
+  font-size: 2em;
+}
+.how-it-works h2 i {
+  color: #e3b500;
+}
+.how-it-works p {
+  text-transform: capitalize;
+}
+.how-it-works ul {
+  list-style-type: none;
+}
+.how-it-works ul li {
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  text-transform: capitalize;
+}
+.how-it-works ul li span {
+  background-color: #e3b500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.1em;
 }/*# sourceMappingURL=main.css.map */
